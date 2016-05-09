@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>septima APLICACION</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/5.jpg','imagenes/d.jpg','imagenes/images (1).jpg','imagenes/10.JPG')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="b">
+    <h1> <b>LA BATALLA DEL 5 DE MAYO </b>   </h1>
+</div>
+<br>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:500px;height:120px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+   <div data-role="main" class="ui-content">
+  </div>
+   <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> ORIGEN DE LA BATALLA </h2>
+   <p> Muestra cual fue el origen de la batalla </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>PERSONAJES PRINCIPALES </h2>
+   <p>Muestra los personajes que participaron en la batalla</p>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> DONDE FUE LA BATALLA</h2>
+   <p> muestra donde fue la batalla </p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CUANDO Y COMO ES QUE TERMINA</h2>
+   <p>Muestra como es que esta termino y donde</p>
+   </a>
+   </li>   
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> QUE FUE LO QUE PASO EL 4 DE MAYO </h2>
+     <p>Muestra que paso el cuatro de mayo</p>
+     </a>   
+   </li>   
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> COMO LO CELEBRAMOS HOY EN DIA </h2>
+     <p>Muestra como lo celebramos hoy en dia</p>
+     </a>   
+   </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> QUE ES AHORA EL LUGAR DONDE SE DESARROLLO LA BATALLA </h2>
+     <p>Muestra donde paso la batalla</p>
+     </a>   
+   </li>    
+   </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="a">
+   <div></div>
+    <div>
+    <h4>Aplicacion SIETE</h4>
+    <img src="res/android/mdpi.png" width="48" height="48">
+<h4> PAMELA DEGANTE CRUZ</h4>
+    </div>
+    </div>
+  </div>   
+   
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> ORIGEN DE LA BATALLA</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/b.png" width="50%" height="50%">
+       <p> La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, </p>
+        <img src="imagenes/ba.jpg" width="50%" height="50%">
+       <p>  durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época..</p> 
+       <img src="imagenes/5.jpg" width="50%" height="50%">
+       <p> Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. </p>
+       <img src="imagenes/6.jpg" width="50%" height="50%">
+       <p>   Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano </p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/5.jpg',1)"> 
+       <img src="imagenes/4m.jpg" width="50%" height="50%" id="Image34"></a> 
+      <br>
+        <a href="http://www.5demayopuebla.mx/historia.php"> para ver mas acerca de esto dar click aquí </a>
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a">
+       <h4>Aplicacion SIETE</h4>
+    <center><img src="res/android/mdpi.png" width="48" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+     </div>
+     
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>PERSONAJES PRINCIPALES</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <h1>De Francia</h1>
+        <div data-role="collapsible" data-content-theme="false"> 
+        <h2> Charles Ferdinad de Latrille conde de Lorencez. </h2>
+       <img src="imagenes/conde.jpg" width="50%" height="50%">
+       <P>  </P>
+        </div>
+        <h1>De mexico</h1>
+        <div data-role="collapsible" data-content-theme="false"> 
+         <h2> Ignacio Zaragoza </h2>
+       <img src="imagenes/ign.jpg" width="50%" height="50%">
+       </div>
+        <div data-role="collapsible" data-content-theme="false"> 
+         <h2>  Felipe Berriozabal</h2>
+       <img src="imagenes/fel.jpg" width="50%" height="50%">
+       <P> </P>
+       </div>
+       <div data-role="collapsible" data-content-theme="false"> 
+         <h2> Porfirio Diaz </h2>
+       <img src="imagenes/diaz.jpg" width="50%" height="50%">
+       </div>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2>Santiago Tapia</h2>
+        <img src="imagenes/san.jpg" width="50%" height="50%">
+       </div>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2>Ignacio Mejia</h2>
+        <img src="imagenes/mej.jpg" width="50%" height="50%">
+       </div>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2>Miguel Negrete</h2>
+        <img src="imagenes/negr.jpg" width="50%" height="50%">
+       </div>
+     
+       </div>
+        </div>
+       <div data-role="footer"data-theme="a">
+        <h4>Aplicacion SIETE</h4>
+    <center><img src="res/android/mdpi.png" width="48" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+       </div>
+       
+       <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> DONDE FUE LA BATALLA </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/7.jpg" width="50%" height="50%">
+       <p> Marca la primera vez que el ejército mexicano pudo derrotar a una potencia extranjera mejor preparada, en este caso los franceses.  <p>
+        <img src="imagenes/mapa.jpg" width="50%" height="50%">
+       <p>La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza el 5 de mayo de 1862, entre los ejércitos de México y Francia. </p>
+       <p><img src="imagenes/8.jpg" width="50%" height="50%"></p>
+       <br>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/d.jpg',1)"><img src="imagenes/7.jpg" width="50%" height="50%" id="Image35"></a>
+       </p>
+       <p> </p>
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a">
+        <h4>Aplicacion SIETE</h4>
+<center><img src="res/android/mdpi.png" width="48" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+       </div>
+       </div>
+       
+        <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> CUANDO Y COMO ES QUE TERMINA </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/t.jpg" width="50%" height="50%">
+       <P>Batalla de Puebla ocurrió encendido 5 de mayo, 1862 cerca de la ciudad de Puebla durante Intervención francesa en México. </P>
+      
+       <img src="imagenes/te.jpg" width="50%" height="50%">
+       <P> La batalla terminó en una victoria para el ejército mexicano contra las fuerzas ocupacionales francesas. </p>
+       
+       <img src="imagenes/ter.jpg" width="50%" height="50%">
+       <P>  La victoria se celebra hoy durante las festividades de Cinco de Mayo....finalizó el 16 de septiembre, 1862,</P>
+       <br>
+       
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/S6PcR3uJehQ" frameborder="0" allowfullscreen></iframe>
+       </div>
+       </div>
+      
+       <div data-role="footer"data-theme="a">
+        <h4>Aplicacion SIETE</h4>
+<center><img src="res/android/mdpi.png" width="50" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+       </div>
+       </div>
+       
+          <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> QUE FUE LO QUE PASO EL 4 DE MAYO </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/1.jpg" width="50%" height="50%"> 
+       <p> La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+</p>
+       <img src="imagenes/4m.jpg" width="50%" height="50%"> 
+       <p> 
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.  </p>
+       
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a">
+       <h4>Aplicacion SIETE</h4>
+   <center><img src="res/android/mdpi.png" width="48" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       
+       </div>
+       </div>
+      
+        <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>COMO LO CELEBRAMOS HOY EN DIA </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <img src="imagenes/2.jpg" width="50%" height="50%">
+       <P> Lo celebramos con un gran desfile a lo largo de la ciudad  </P>
+       <img src="imagenes/3.jpg" width="50%" height="50%">
+       <P> en este participan en su mayoria estudientes de los diferentes niveles academicos </P>
+        <img src="imagenes/des.jpg" width="50%" height="50%">
+       <P>  asisten a verlo muchas personas para conmemorar lo que sucedio en atlixco el 4 de mayo </P>
+       <img src="imagenes/4.jpg" width="50%" height="50%">
+       <P> todos lo hacen con una gran alegria y entusiasmo</p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/10.JPG',1)"><img src="imagenes/9.JPG" width="50%" height="50%" id="Image37"></a> </div>
+       </div>
+      
+       <div data-role="footer"data-theme="a">
+       <h4>Aplicacion SIETE</h4>
+    <center><img src="res/android/mdpi.png" width="48" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+       </div>
+       </div>
+       
+       <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>QUE ES AHORA EL LUGAR DONDE SE DESARROLLO LA BATALLA</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/an.jpg" width="50%" height="50%">
+       <P>en ese entonces se llevo a cabo en la ciudad de Puebla, estado de Puebla, México. Para ser exacto frente a los fuertes de Guadalupe y de Loreto que en aquella época estaba a las afueras de la ciudad </P>
+<img src="imagenes/d.jpg" width="50%" height="50%">
+<P> La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza el 5 de mayo de 1862, entre los ejércitos de México y Francia. </P>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/images (1).jpg',1)"><img src="imagenes/images.jpg" width="50%" height="50%" id="Image36"></a> </div>
+        </div>
+       <div data-role="footer"data-theme="a">
+        <h4>Aplicacion SIETE</h4>
+   <center><img src="res/android/mdpi.png" width="48" height="48"></center>
+<h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+       </div>
+       
+</body>
+</html>
+ <div data-role="collapsible" data-content-theme="false"> </div>
